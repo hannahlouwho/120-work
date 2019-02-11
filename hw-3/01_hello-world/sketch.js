@@ -1,15 +1,12 @@
-/*
-Name: sketch.js
-Author: Hannah Wheeler
-*/
+// Declare the setup function
+function setup() {
 
-// Declaring the setup function
-function setup () {
-    // creating a canvas that is 300px wide and 600px high
-  createCanvas( 600, 400 );
-    // making the background 'thristle/soft purple'
- background('#fae');
-  }
+    // create a canvas 600px wide and 400px high
+    createCanvas( 600, 400 );
+
+    // color the background 'pink'
+    background( 'pink' );
+}
 
   // Declaring the draw functions
   function draw () {
